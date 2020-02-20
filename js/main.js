@@ -36,3 +36,9 @@ pacientes.forEach(paciente => {
         tdIMC.textContent = imc.toFixed(2);
     }
 });
+
+let titulo = document.querySelector("#titulo");
+
+function mostrarMensagem(){
+    console.log("evento aconteceu");
+}
